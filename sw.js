@@ -17,7 +17,7 @@
  *
  */
 
-const version = "alpha";
+const version = "1.0";
 const cacheName = `kotlc-hub-${version}`;
 self.addEventListener('install', e => {
   e.waitUntil(
